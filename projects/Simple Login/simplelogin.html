@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login Form</title>
+    <script src="js/login.js"></script>
+</head>
+<body id="loginBody">
+    <center>
+    <h1>Login Form</h1>
+    <p id="error"></p>
+    <table>
+    <tr>
+    <th><label id="userLabel">Username: &nbsp;</label></th>
+    <td><input class="inputdes" type="text" id="username" placeholder="Username"></td></tr>
+    <tr>
+    <th><label id="passLabel">Password:  &nbsp;</label></th>
+    <td><input class="inputdes" type="password" id="password" placeholder="Password"></td></tr>
+
+    </table>
+    <br>
+    <a class="forgot" href="#" onclick="forgot()">Forgot password</a>
+    <br>
+    <br>
+    <button class="but" type="submit" onclick="login()">Login</button>
+    <br>
+    <br>
+    <p style="color: white;">Don't have an account?<a class="register" href="registerform.html">Register Here</a></p>
+    </center>
+</body>
+</html>

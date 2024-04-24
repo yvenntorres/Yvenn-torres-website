@@ -1,0 +1,286 @@
+.bodybg {
+    background-image: url(v1016-c-08.jpg);
+}
+.container {
+    width: 70%;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 14%;
+    box-shadow: 20px 5px 10px 5px black;
+    background-image: url(v1016-c-08.jpg);
+ }
+.iconimg {
+  display: absolute;
+  height: auto;
+  width: auto;
+  margin-top: -43.2%;
+  margin-left: 59.2%;
+  filter: brightness(70%)
+}
+.abtimg {
+  height: 100%;
+  width: 40%;
+  margin-top: -4.5%;
+  margin-left: 60.2%;
+  filter: brightness(80%)
+}
+.abtcontainer {
+  width: 40%;
+  height: 500px;
+  margin-top: -35%;
+  margin-left: 14%;
+}
+.pwho {
+  color: white;
+  font-size: 50px;
+  font-family: 'Monospace', monospace;
+}
+.pdescript {
+  color: white;
+  font-size: 17px;
+}
+.nameindex {
+  display: grid;
+  color: white;
+  font-size: 70px;
+  font-weight: 900;
+  gap: 5px 0px;
+  padding-top: 13%;
+  padding-left: 7%;
+}
+
+.pagebg {
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 75px;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ margin: auto;
+}
+nav .navbar .logo a{
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav .navbar .menu{
+  display: flex;
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 20px;
+}
+.navbar .menu li a{
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #96c7e8;
+  font-size: 70px;
+}
+
+.button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #2980b9;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+.card {
+  width: 300px;
+  height: 220px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  gap: 13px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 20px rgba(101, 74, 108, 0.903);
+}
+.cookieHeading {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: rgb(26, 26, 26);
+}
+
+.cookieDescription {
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(99, 99, 99);
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.acceptButton {
+  width: 80px;
+  height: 30px;
+  background-color: #7b57ff;
+  transition-duration: .2s;
+  border: none;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.acceptButton a {
+  text-decoration: none;
+  color: white;
+}
+.acceptButton:hover {
+  background-color: #9173ff;
+  transition-duration: .2s;
+}
+
+.grid-proj-container {
+  display: grid; /*just like flex box, for multidimensional*/
+  grid-template-columns: auto auto auto; /*column*/
+  padding: 2px;
+  padding-top: 5%;
+  width: 90%;
+  gap: 30px 50px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 50px;
+}
+
+.grid-proj-item {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.item1proj {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.item2proj {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.projhead {
+  display: fixed;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+}
+.projtop {
+  height: 60px;
+  background-color: black;
+}
+.grid-proj2-container {
+  display: grid; /*just like flex box, for multidimensional*/
+  grid-template-columns: auto auto; /*column*/
+  padding: 2px;
+  padding-top: 5%;
+  width: 90%;
+  gap: 30px 50px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 50px;
+}
+
+.grid-proj2-item {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.child:hover {
+  background-color: white;
+  background-position: -100px 100px, -100px 100px;
+  transform: rotate3d(0.5, 1, 0, 30deg);
+  transform: perspective(180px) rotateX(60deg) translateY(2px);
+  box-shadow: 0px 10px 10px rgb(1, 49, 182);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.button:hover {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate3d(0px, 0px, 15px) perspective(180px) rotateX(-35deg) translateY(2px);
+  border-radius: 50%;
+}
+.socials {
+  display: absolute;
+  float: left;
+  margin-left: 7%;
+  border: 2px solid white;
+}

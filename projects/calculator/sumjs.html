@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function sum() {
+            var x=parseInt(document.getElementById('firstNum').value);
+            var y=parseInt(document.getElementById('secondNum').value);
+            var z = x + y;
+            var b = x - y;
+            var a = x * y;
+            var c = x / y;
+            document.getElementById('sum').innerHTML = "The sum is: " + z;
+            document.getElementById('diff').innerHTML = "The difference is: " + b;
+            document.getElementById('multi').innerHTML = "The product is: " + a;
+            document.getElementById('div').innerHTML = "The quotient is: " + c;
+        
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Caculator</h1>
+    <label>First Number:</label>
+    <input type="text" id="firstNum" placeholder="0">
+    <br>
+    <label>Second Number:</label>
+    <input type="text" id="secondNum" placeholder="0">
+    <br>
+    <button type="button" onclick="sum()">Compute</button>
+    <p id="sum"></p>
+    <p id="diff"></p>
+    <p id="multi"></p>
+    <p id="div"></p>
+</body>
+</html>

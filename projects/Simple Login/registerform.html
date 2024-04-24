@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registration Form</title>
+    <script src="js/register.js"></script>
+</head>
+<body id="loginBody">
+    <center>
+    <h1>REGISTER</h1>
+    <p id="errormess"></p>
+    <table>
+    <tr>
+    <th><label id="userLabel">Username: </label></th>
+    <td><input class=" inputdes" type="text" id="username" placeholder="Username"></td>
+    </tr>
+    <tr>
+    <th><label id="userLabel">Name: </label></th>
+    <td><input class=" inputdes" type="text" id="name" placeholder="Name"></td>
+    </tr>
+    <tr>
+    <th><label style="color: white;">Gender: </label></th>
+    <td><select class="genderLabel" id="gender" name="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Others">Others</option>
+      </select></td>
+    </tr>
+    <tr>
+    <th><label id="passLabel">Password:  </label></th>
+    <td><input class=" inputdes" type="password" id="password" placeholder="Password"></td>
+    </tr>
+    </table>
+    <br>
+    <button class="but" type="submit" onclick="register()"><b>Register</b></button>
+    <br>
+    <br>
+    <a class="rgist" href="simplelogin.html">Already Registered?</a>
+    </center>
+</body>
+</html>

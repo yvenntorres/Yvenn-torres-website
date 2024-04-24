@@ -1,0 +1,86 @@
+        h1 {
+            color: deeppink;
+        }
+        label {
+            font-size: 25px;
+        }
+        button {
+            padding: 10px;
+            background-color: deeppink;
+            width: 10%;
+            color: white;
+            border: 2px inset pink;
+            border-radius: 10px;
+        }
+
+        .but:hover {
+            background-color: deeppink;
+            color: white;
+            border: 2px inset rgb(216, 21, 151);
+            border-radius: 10px;
+        }
+
+        #userLabel {
+            color: white;
+        }
+        #passLabel {
+            color: white;
+        }
+        #loginBody {
+            background-color: black;
+        }
+
+        #genderLab {
+            color: white;
+            
+        }
+        .inputdes {
+            width: 92.8%;
+            background-color: pink;
+            color: black;
+            padding: 5px;
+        }
+        .genderLabel {
+            background-color: pink;
+            color: black;
+            padding: 5px 65px 5px 65px;
+        }
+
+        .genderLabel:hover {
+            background-color: deeppink;
+            color: white;
+            padding: 5px 65px 5px 65px;
+        }
+
+        .forgot:link {
+            font-size: 15px;
+            color: blue;
+            font-style: none;
+        }
+
+        .forgot:hover {
+            color: pink;
+            font-size: 15px;
+        }
+
+        .forgot:visited {
+            font-size: 15px;
+        }
+
+        .forgot:active {
+            color: maroon;
+            font-size: 15px;
+        }
+        .rgister:link {
+            font-size: 15px;
+            color: deeppink;
+            font-style: none;
+        }
+
+        #error {
+            color: rgb(164, 35, 104);
+        }
+        #errormess {
+            color: rgb(209, 24, 147);
+            font-size: 20px;
+        }

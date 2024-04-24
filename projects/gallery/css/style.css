@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(244, 175, 209);
+}
+h1 {
+    color: rgb(154, 26, 107);
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid; /*just like flex box, for multidimensional*/
+        grid-template-columns: auto; /*column*/
+
+        row-gap: 10px;
+    }
+
+    .grid-item {
+        padding: 10px;
+        text-align: center;
+        color: white;
+        border: 1px dotted black;
+        background-color: rgb(231, 180, 216);
+    }
+    
+    .imgdes {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .grid-container {
+        display: grid; /*just like flex box, for multidimensional*/
+        grid-template-columns: auto auto; /*column*/
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .grid-item {
+        padding: 10px;
+        text-align: center;
+        color: white;
+        border: 1px dotted black;
+        background-color: rgb(231, 180, 216);
+    }
+    
+    .imgdes {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .grid-container {
+        display: grid; /*just like flex box, for multidimensional*/
+        grid-template-columns: auto auto auto; /*column*/
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .grid-item {
+        padding: 10px;
+        text-align: center;
+        color: white;
+        border: 1px dotted black;
+        background-color: rgb(231, 180, 216);
+    }
+    
+    .imgdes {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .grid-container {
+        display: grid; /*just like flex box, for multidimensional*/
+        grid-template-columns: auto auto auto auto; /*column*/
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .grid-item {
+        padding: 10px;
+        text-align: center;
+        color: white;
+        border: 1px dotted black;
+        background-color: rgb(231, 180, 216);
+    }
+    
+    .imgdes {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .grid-container {
+        display: grid; /*just like flex box, for multidimensional*/
+        grid-template-columns: auto auto auto auto auto; /*column*/
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .grid-item {
+        padding: 10px;
+        text-align: center;
+        color: white;
+        border: 1px dotted black;
+        background-color: rgb(231, 180, 216);
+    }
+    
+    .imgdes {
+        height: 200px;
+        width: 200px;
+    }
+}

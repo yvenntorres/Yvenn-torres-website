@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    <script src="js/numbers.js"></script>
+    <script src="js/operation.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div>
+        <h1>Simple Calculator</h1>
+        <input class="inputbox" id="number-input" type="text" placeholder="0" readonly>
+        
+    </div>
+    
+    <input class="inputboxtwo" id="operation-input" type="hidden">
+    <input class="inputbox2" id="previous" type="hidden" value="0">
+    
+        <div class="flex-container">
+            <button class="btnone" onclick="number(1)"> 1 </button>
+            <button class="btnone" onclick="number(2)"> 2 </button>
+            <button class="btnone" onclick="number(3)"> 3 </button>
+            <button class="btnsign" onclick="operation('+')"> + </button>
+        
+            <button class="btnone" onclick="number(4)"> 4 </button>
+            <button class="btnone" onclick="number(5)"> 5 </button>
+            <button class="btnone" onclick="number(6)"> 6 </button>
+            <button class="btnsign" onclick="operation('-')"> - </button>
+       
+            <button class="btnone" onclick="number(7)"> 7 </button>
+            <button class="btnone"onclick="number(8)"> 8 </button>
+            <button class="btnone" onclick="number(9)"> 9 </button>
+            <button class="btnsign" onclick="operation('*')"> * </button>
+       
+            <button class="btnone" onclick="number(0)"> 0 </button>
+            <button class="btnsign" onclick="operation('/')"> / </button>
+            <button class="btnsign" onclick="equal('=')"> = </button>
+            <button class="btnsign" onclick="clearInput()"> C </button>
+        </div>
+    </div>
+</body>
+</html>

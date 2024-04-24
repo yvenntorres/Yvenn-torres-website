@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(72, 12, 64);
+    font-size: 20px;
+}
+.static {
+    position: static;
+    background-color: black;
+    color: deeppink;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid white;
+}
+.relative {
+    position: relative;
+    left: 50px;
+    top: 100px;
+    background-color: black;
+    color: deeppink;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid white; 
+}
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: deeppink;
+    padding: 10px;
+    border: 5px solid white; 
+}
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: deeppink;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 200px;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: deeppink;
+    border: 5px solid white;
+}
